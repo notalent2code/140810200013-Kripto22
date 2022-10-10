@@ -44,7 +44,7 @@ if __name__ == "__main__":
         choice = input("Pilihan [1-3]\t\t: ")
 
         if choice == '1':
-            plaintext = input("Masukkan Ciphertext\t: ").replace(" ", "")
+            plaintext = input("Masukkan Plaintext\t: ").replace(" ", "")
             output = vigenere_cipher(plaintext, "enkripsi")
             print(f"Hasil Enkripsi\t\t: {output}")
             input("\nTekan tombol enter untuk lanjut...")
