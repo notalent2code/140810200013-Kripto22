@@ -33,3 +33,4 @@
 
 *.ini
 *.vscode
+__pycache__
